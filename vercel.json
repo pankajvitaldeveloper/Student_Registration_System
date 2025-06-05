@@ -6,5 +6,10 @@
       "use": "@vercel/static"
     }
   ],
-  "cleanUrls": true
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/index.html"
+    }
+  ]
 }

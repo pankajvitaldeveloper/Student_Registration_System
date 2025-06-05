@@ -44,11 +44,12 @@ students/
 2. Open the project folder:
    ```bash
    cd students
+   npm i
    ```
 
 3. Open index.html in your browser or use a live server.
 
-## For change something use below command in css
+## For change something in project use this below command
 4. npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
 
